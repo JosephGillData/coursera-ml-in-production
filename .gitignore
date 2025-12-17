@@ -26,3 +26,7 @@ wandb/
 logs/
 outputs/
 checkpoints/
+*.jpg
+*.png
+*.jpeg
+
