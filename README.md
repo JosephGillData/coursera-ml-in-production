@@ -4,10 +4,10 @@ Labs and exercises from the Coursera **Machine Learning Engineering for Producti
 
 ## What's Inside
 
-| Week | Topic | What You'll Learn |
+| Week | Topic | Content |
 |------|-------|-------------------|
-| **Week 1** | Deployment | Build a FastAPI object-detection server, containerize with Docker, deploy to AWS Elastic Beanstalk |
-| **Week 2** | Modeling | Train a CNN image classifier (birds/cats/dogs), handle class imbalance, apply data augmentation |
+| **1** | Deployment | Build a FastAPI object-detection server, containerize with Docker, deploy to AWS Elastic Beanstalk |
+| **2** | Modeling | Train a CNN image classifier (birds/cats/dogs), handle class imbalance, apply data augmentation |
 
 ## Quick Start
 
@@ -89,20 +89,6 @@ coursera-ml-in-production/
 - **Data Pipeline**: Dataset splitting, preprocessing, and augmentation
 - **Handling Imbalance**: Techniques for working with imbalanced datasets
 - **Transfer Learning Ready**: Architecture designed for easy extension
-
-## Model Architecture
-
-The image classifier uses a CNN with the following structure:
-
-```
-Input (150x150x3)
-    ↓
-Conv2D (32) → MaxPool → Conv2D (64) → MaxPool
-    ↓
-Conv2D (64) → MaxPool → Conv2D (128) → MaxPool
-    ↓
-Flatten → Dense (512) → Dense (3, softmax)
-```
 
 ## Tips
 
