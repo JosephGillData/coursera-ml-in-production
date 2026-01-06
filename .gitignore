@@ -29,4 +29,7 @@ checkpoints/
 *.jpg
 *.png
 *.jpeg
+*.gz
+*.tar.gz
+*.tar
 
