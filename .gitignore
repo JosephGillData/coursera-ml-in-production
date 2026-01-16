@@ -32,4 +32,6 @@ checkpoints/
 *.gz
 *.tar.gz
 *.tar
-
+*.weights
+Dockerfile
+*.cfg
