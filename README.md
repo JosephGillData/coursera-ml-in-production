@@ -8,6 +8,7 @@ Labs and exercises from the Coursera **Machine Learning Engineering for Producti
 |------|-------|-------------------|
 | **1** | Deployment | Build a FastAPI object-detection server, containerize with Docker, deploy to AWS Elastic Beanstalk |
 | **2** | Modeling | Train a CNN image classifier (birds/cats/dogs), handle class imbalance, apply data augmentation |
+| **3** | Data Labeling | Explore how labeling quality affects model performance, build rule-based automatic labeling strategies |
 
 ## Quick Start
 
@@ -49,6 +50,11 @@ jupyter notebook wk1_deployment/lab_1/server-coursera.ipynb
 jupyter notebook wk1_deployment/lab_1/client-coursera.ipynb
 ```
 
+**Data Labeling Lab (Week 3):**
+```bash
+jupyter notebook wk3_data/C1W3_Data_Labeling_Ungraded_Lab.ipynb
+```
+
 **Docker Deployment:**
 ```bash
 docker build -t ml-server .
@@ -74,6 +80,11 @@ coursera-ml-in-production/
 │   ├── models/                     # Pre-trained model weights
 │   └── histories/                  # Saved training histories for plotting
 │
+├── wk3_data/
+│   ├── C1W3_Data_Labeling_Ungraded_Lab.ipynb   # Data labeling notebook
+│   ├── data/                       # YouTube spam comment CSVs
+│   └── assets/                     # Labeling strategy images
+│
 └── README.md
 ```
 
@@ -89,6 +100,12 @@ coursera-ml-in-production/
 - **Data Pipeline**: Dataset splitting, preprocessing, and augmentation
 - **Handling Imbalance**: Techniques for working with imbalanced datasets
 - **Transfer Learning Ready**: Architecture designed for easy extension
+
+### Week 3: Data Labeling
+- **Labeling Impact**: Compare model performance across different labeling strategies
+- **Performance Baselines**: Establish lower (random) and upper (true labels) bounds
+- **Rule-Based Labeling**: Build automatic labeling using domain-specific rules
+- **Text Classification**: Naive Bayes classifier with CountVectorizer for spam detection
 
 ## Tips
 
